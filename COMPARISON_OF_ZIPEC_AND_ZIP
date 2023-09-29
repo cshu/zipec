@@ -1,0 +1,168 @@
+Here are lsar -L XXXX.zip output for zip files produced by zipec and zip. You  can see there are small differences:
+************************************** zipec
+d1/: 
+  Name:                 d1
+  Size:                 0 bytes
+  Compressed size:      0 bytes
+  Compression type:     None
+  Is a directory:       Yes
+  Last modified:        2023-09-28 20:44:44 -0700
+  Unix permissions:     rwxrwxr-x (40775)
+  Index in file:        0
+  Start of data:        42
+  Length of data:       0
+  ZipCRC32:             0x00000000
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    20
+  ZipFileAttributes:    1107099664
+  ZipFlags:             0
+  ZipLocalDate:         1463592342
+  ZipOS:                3
+  ZipOSName:            Unix
+d1/d2/: 
+  Name:                 d1/d2
+  Size:                 0 bytes
+  Compressed size:      0 bytes
+  Compression type:     None
+  Is a directory:       Yes
+  Last modified:        2023-09-28 20:44:32 -0700
+  Unix permissions:     rwxrwxr-x (40775)
+  Index in file:        1
+  Start of data:        87
+  Length of data:       0
+  ZipCRC32:             0x00000000
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    20
+  ZipFileAttributes:    1107099664
+  ZipFlags:             0
+  ZipLocalDate:         1463592336
+  ZipOS:                3
+  ZipOSName:            Unix
+d1/d2/f1: 
+  Name:                 d1/d2/f1
+  Size:                 5 bytes
+  Compressed size:      11 bytes
+  Compression type:     Deflate
+  Last modified:        2023-09-28 20:44:32 -0700
+  Unix permissions:     rw-rw-r-- (100664)
+  Index in file:        2
+  Start of data:        134
+  Length of data:       11
+  ZipCRC32:             0x3bb935c6
+  ZipCompressionMethod: 8
+  ZipExtractVersion:    20
+  ZipFileAttributes:    -2118909952
+  ZipFlags:             8
+  ZipLocalDate:         1463592336
+  ZipOS:                3
+  ZipOSName:            Unix
+d1/d3/: 
+  Name:                 d1/d3
+  Size:                 0 bytes
+  Compressed size:      0 bytes
+  Compression type:     None
+  Is a directory:       Yes
+  Last modified:        2023-09-28 20:44:44 -0700
+  Unix permissions:     rwxrwxr-x (40775)
+  Index in file:        3
+  Start of data:        206
+  Length of data:       0
+  ZipCRC32:             0x00000000
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    20
+  ZipFileAttributes:    1107099664
+  ZipFlags:             0
+  ZipLocalDate:         1463592342
+  ZipOS:                3
+  ZipOSName:            Unix
+
+
+
+************************************** zip
+d1/: 
+  Name:                 d1
+  Size:                 0 bytes
+  Compressed size:      0 bytes
+  Compression type:     None
+  Is a directory:       Yes
+  Last modified:        2023-09-28 20:44:44 -0700
+  Last accessed:        2023-09-28 20:45:14 -0700
+  Unix permissions:     rwxrwxr-x (40775)
+  Unix user number:     1000
+  Unix group number:    1000
+  Index in file:        0
+  Start of data:        61
+  Length of data:       0
+  ZipCRC32:             0x00000000
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    10
+  ZipFileAttributes:    1107099664
+  ZipFlags:             0
+  ZipLocalDate:         1463592342
+  ZipOS:                3
+  ZipOSName:            Unix
+d1/d3/: 
+  Name:                 d1/d3
+  Size:                 0 bytes
+  Compressed size:      0 bytes
+  Compression type:     None
+  Is a directory:       Yes
+  Last modified:        2023-09-28 20:44:44 -0700
+  Last accessed:        2023-09-28 20:45:14 -0700
+  Unix permissions:     rwxrwxr-x (40775)
+  Unix user number:     1000
+  Unix group number:    1000
+  Index in file:        1
+  Start of data:        125
+  Length of data:       0
+  ZipCRC32:             0x00000000
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    10
+  ZipFileAttributes:    1107099664
+  ZipFlags:             0
+  ZipLocalDate:         1463592342
+  ZipOS:                3
+  ZipOSName:            Unix
+d1/d2/: 
+  Name:                 d1/d2
+  Size:                 0 bytes
+  Compressed size:      0 bytes
+  Compression type:     None
+  Is a directory:       Yes
+  Last modified:        2023-09-28 20:44:33 -0700
+  Last accessed:        2023-09-28 20:45:14 -0700
+  Unix permissions:     rwxrwxr-x (40775)
+  Unix user number:     1000
+  Unix group number:    1000
+  Index in file:        2
+  Start of data:        189
+  Length of data:       0
+  ZipCRC32:             0x00000000
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    10
+  ZipFileAttributes:    1107099664
+  ZipFlags:             0
+  ZipLocalDate:         1463592337
+  ZipOS:                3
+  ZipOSName:            Unix
+d1/d2/f1: 
+  Name:                 d1/d2/f1
+  Size:                 5 bytes
+  Compressed size:      5 bytes
+  Compression type:     None
+  Last modified:        2023-09-28 20:44:33 -0700
+  Last accessed:        2023-09-28 20:44:33 -0700
+  Unix permissions:     rw-rw-r-- (100664)
+  Unix user number:     1000
+  Unix group number:    1000
+  Index in file:        3
+  Start of data:        255
+  Length of data:       5
+  ZipCRC32:             0x3bb935c6
+  ZipCompressionMethod: 0
+  ZipExtractVersion:    10
+  ZipFileAttributes:    -2118909952
+  ZipFlags:             0
+  ZipLocalDate:         1463592337
+  ZipOS:                3
+  ZipOSName:            Unix
